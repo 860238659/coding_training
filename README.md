@@ -8,7 +8,7 @@
 - 在 `student` 目录下建一个自己的目录存放自己的档案，以github账户名命名，参考架构
 ```bash
 范例：
-superfreeeee/
+superfreeeee/
 ├── README.md  # 自我介绍
 ├── notes/  # 存自己的笔记，可供互相参考
 │   └── ...
