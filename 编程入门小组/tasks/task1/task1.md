@@ -1,9 +1,11 @@
 # Task 1
 
+## ddl: 10/3 23:59
+
 ## 题目：爬楼梯
 一个人从地面向上爬，每次只能选走`2阶`或是`3阶`，刚好抵达`n阶`时输出可能的走法数，否则输出`-1`
 
-## TODO：完成 `climbd_stairs` 方法
+## TODO：完成方法 `int climbd_stairs(int n)`
 - 参数：n (总阶数)
 - 参数限制：n >= 0, n为整数
 - 返回值：-1 or 可选方法数
@@ -17,23 +19,23 @@
 // input
 0
 // output
-1
+1   // no movement is a choice
 ```
 ```c
 // input
 1
 // output
--1
+-1  // unreachable
 ```
 ```c
 // input
 5
 // output
-2   // 2,3 or 3,2
+2   // (2,3), (3,2) two choices
 ```
 ```c
 // input
 8
 // output
-4  // 2,2,2,2 or 2,3,3 or 3,2,3 or 3,3,2
+4  // (2,2,2,2), (2,3,3), (3,2,3), (3,3,2) four choices
 ```
